@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 10px;
+    background-color: #F4F4F4;
+}
+
+img {
+    width: 33.15vw;
+    height: 100%;
+}
