@@ -19,37 +19,39 @@
     <div class="container">
         <div class="info">Welcome to our site! <br><br>By creating an account, you'll be able to access exclusive content, save your progress, and receive personalized recommendations. Plus, it only takes less than a minute to sign up.</div>
         <form action="#" method="post">
-            <div class="form-title">Let's do this!</div>
-            <fieldset>
-                <div class="input-container">
-                    <label for="first_name">FIRST NAME</label>
-                    <input type="text" name="first_name" id="first_name">
-                </div>
-                <div class="input-container">
-                    <label for="last_name">LAST NAME</label>
-                    <input type="text" name="last_name" id="last_name">  
-                </div>
-            </fieldset>
-            <fieldset>
-                <div class="input-container">
-                    <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div class="input-container">
-                    <label for="phone">PHONE NUMBER</label>
-                    <input type="tel" name="phone" id="phone">
-                </div>
-            </fieldset>
-            <fieldset>
-                <div class="input-container">
-                    <label for="pwd">PASSWORD</label>
-                    <input type="password" name="pwd" id="pwd">
-                </div>
-                <div class="input-container">
-                    <label for="pwd-conf">CONFIRM PASSWORD</label>
-                    <input type="password" name="pwd-conf" id="pwd-conf">
-                </div>
-            </fieldset>
+            <div class="form-questions">
+                <div class="form-title">Let's do this!</div>
+                <fieldset>
+                    <div class="input-container">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" name="first_name" id="first_name" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" name="last_name" id="last_name" required>  
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="input-container">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" name="phone" id="phone" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="input-container">
+                        <label for="pwd">PASSWORD</label>
+                        <input type="password" name="pwd" id="pwd" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="pwd-conf">CONFIRM PASSWORD</label>
+                        <input type="password" name="pwd-conf" id="pwd-conf" required>
+                    </div>
+                </fieldset>
+            </div>
             <button type="submit">Create Account</button>
         </form>
         <footer>Already have an account? <span class="login">Log in</span></div>
