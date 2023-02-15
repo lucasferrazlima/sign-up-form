@@ -7,28 +7,52 @@
     <title>Sign-up</title>
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monoton&family=Kosugi+Maru&family=Kosugi+Maru">
 </head>
 <body>
-    <img src="./ben-klewais-nLE3eLaQA6A-unsplash.jpg" alt="placeholder description">
-    <div class="logo">LOGO</div>
+    <video src="./images/pexels-nikita-ryumshin-7782667.mp4" autoplay loop muted>
+        Your browser does not support the video tag.
+    </video>
+    <div class="logo">
+        <img  class="logo-image" src="./images/logoipsum-221.svg" alt="">
+    </div>
     <div class="container">
-        <div class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula sem ex, a hendrerit leo fermentum quis. Aliquam sit amet tincidunt lectus. Sed cursus tristique sapien, sit amet porta dui tristique ut. Donec quis eros sed lacus ullamcorper egestas in condimentum nunc.</div>
+        <div class="info">Welcome to our site! <br><br>By creating an account, you'll be able to access exclusive content, save your progress, and receive personalized recommendations. Plus, it only takes less than a minute to sign up.</div>
         <form action="#" method="post">
-            <div class="form-title">Title</div>
-            <label for="first_name">First Name</label>
-            <input type="text" name="first_name" id="first_name">            <label for="last_name">Last Name</label>
-            <input type="text" name="last_name" id="last_name">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
-            <label for="phone">Phone Number</label>
-            <input type="tel" name="phone" id="phone">
-            <label for="pwd">Password</label>
-            <input type="password" name="pwd" id="pwd">
-            <label for="pwd-conf">Confirm Password</label>
-            <input type="password" name="pwd-conf" id="pwd-conf">
+            <div class="form-title">Let's do this!</div>
+            <fieldset>
+                <div class="input-container">
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" name="first_name" id="first_name">
+                </div>
+                <div class="input-container">
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" name="last_name" id="last_name">  
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="input-container">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="input-container">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" name="phone" id="phone">
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="input-container">
+                    <label for="pwd">PASSWORD</label>
+                    <input type="password" name="pwd" id="pwd">
+                </div>
+                <div class="input-container">
+                    <label for="pwd-conf">CONFIRM PASSWORD</label>
+                    <input type="password" name="pwd-conf" id="pwd-conf">
+                </div>
+            </fieldset>
             <button type="submit">Create Account</button>
         </form>
-        <div>Already have an accout? <span class="login">Log in</span></div>
+        <footer>Already have an account? <span class="login">Log in</span></div>
     </div>
 </body>
 </html>

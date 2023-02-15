@@ -1,16 +1,73 @@
 body {
     display: flex;
     margin: 0;
+    font-family: "Ubuntu";
+    overflow: hidden;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    padding: 120px 10px;
-    background-color: #F4F4F4;
+    background-color: #f1f1f1;
+}
+
+video {
+    width: 491px;
+}
+
+.logo {
+    position: absolute;
+    width: 491px;
+    height: 100px;
+    text-align: center;
+    font-family: "Monoton";
+    color: white;
+    font-size: 60px;
+    top: 220px;
+    background-color: rgb(0, 0, 0, 0.2);
 }
 
 img {
-    width: 33.15vw;
-    height: 100%;
+    width: 150px;
+}
+
+.info {
+    padding: 90px 200px 50px 40px;
+    font-size: 20px;
+    font-size: 23px;
+    color: #666666;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.form-title {
+    color: #666666;
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    all: unset;
+    display: flex;
+    gap: 60px;
+    padding: 15px;
+}
+
+label {
+    font-size: 13px;
+    font-weight: bold;
+    color: #555555;
 }
