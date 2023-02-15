@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monoton&family=Kosugi+Maru&family=Kosugi+Maru">
 </head>
 <body>
@@ -17,7 +17,7 @@
         <img  class="logo-image" src="./images/logoipsum-221.svg" alt="">
     </div>
     <div class="container">
-        <div class="info">Welcome to our site! <br><br>By creating an account, you'll be able to access exclusive content, save your progress, and receive personalized recommendations. Plus, it only takes less than a minute to sign up.</div>
+        <div class="info"><span class="welcome"> Welcome to our site! </span><br><br>By creating an account, you'll be able to access exclusive content, save your progress, and receive personalized recommendations. Plus, it only takes less than a minute to sign up.</div>
         <form action="#" method="post">
             <div class="form-questions">
                 <div class="form-title">Let's do this!</div>
@@ -42,13 +42,13 @@
                     </div>
                 </fieldset>
                 <fieldset>
-                    <div class="input-container">
+                    <div class="input-container" id="pwd-container">
                         <label for="pwd">PASSWORD</label>
-                        <input type="password" name="pwd" id="pwd" required>
+                        <input type="password" name="pwd" id="pwd" required onchange="checkPassword()">
                     </div>
                     <div class="input-container">
                         <label for="pwd-conf">CONFIRM PASSWORD</label>
-                        <input type="password" name="pwd-conf" id="pwd-conf" required>
+                        <input type="password" name="pwd-conf" id="pwd-conf" required onchange="checkPassword()">
                     </div>
                 </fieldset>
             </div>
